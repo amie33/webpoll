@@ -1,0 +1,82 @@
+/*style for my web poll baby*/ 
+*{
+	background: purple;
+	margin: 0 auto; 
+	padding: 6px; 
+}
+/*just for future reference, to select the text that are mysql fields i put divs around the output and selected it that way*/ 
+.output{
+	font-size: 30px;
+	font-family: 'Barriecito';
+	background-color: gold;
+	color: midnightblue;
+	border-radius: 10%;
+	width: 50%;
+}
+input[type="radio"]{
+	margin-right: 15px;
+}
+input[type="submit"]:hover{
+	color: yellow;
+	background-color: red;
+}
+.buttDiv{
+	text-align: center;
+	width: 5%;
+	border: 2px solid orange;
+}
+.submitb{
+	font-size: 25px;
+	padding: 10px;
+	font-family: 'Barriecito';font-size: 22px;
+	background-color: lightgreen;
+}
+.theGiantHead{
+	text-align: center;
+	font-family: 'Bungee Shade';
+	font-size: 35px;
+}
+.noVote{
+	width: 50%;
+}
+.nope{
+	font-family: 'Butcherman';
+	font-size: 40px;
+	padding: 20px;
+	text-align: center;
+	color: yellow;
+	-webkit-text-stroke-width: .5px;
+	-webkit-text-stroke-color: black;
+}
+.percent{
+	width: 50%;
+	padding: 30px;
+	text-align: left;
+}
+.thankYou, .voteagain{
+	font-family: 'Londrina Shadow';
+	font-size: 35px;
+	text-align: center;
+}
+.final{
+	font-size: 30px;
+	font-family: 'Mountains of Christmas';
+	font-weight: bold;
+	color: mediumseagreen;
+}
+form{
+	padding: 20px;
+}
+a{
+	text-decoration: none;
+	color: yellow;
+	-webkit-text-stroke-width: .5px;
+	-webkit-text-stroke-color: black;
+}
+.voteagain{
+	padding: 20px;
+	text-align: center;
+}
+button{
+	diplay: block;
+}
